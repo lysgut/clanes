@@ -4,7 +4,7 @@ const morgan = require("morgan")
 const bodyParser =require("body-parser")
 const mongoose = require("mongoose")
 const dbname = "clanes"
-const urlMongoose = `mongodb+srv://lysgut:Mongoatlas177@cluster0.etd9y4p.mongodb.net/${dbname}?retryWrites=true&w=majority`
+const urlMongoose = `mongodb+srv://lysgut:Mongoatlas177@cluster0.yvzut0t.mongodb.net/?retryWrites=true&w=majority`
 const port = 1905
 const ejs = require("ejs")
 
