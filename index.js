@@ -15,7 +15,7 @@ app.listen(port, () => {
 });
 
 const mongoose = require("mongoose")
-const urlMongoose = `mongodb+srv://lysgut:Mongoatlas177@cluster0.yvzut0t.mongodb.net/?retryWrites=true&w=majority`
+const urlMongoose = `mongodb+srv://lysgut:Mongoatlas177@cluster0.yvzut0t.mongodb.net/?retryWrites=true&w=majority"`
 mongoose.Promise = global.Promise; // Utilizar promesas nativas de Node.js
 mongoose.connect(urlMongoose, { useNewUrlParser: true })
   .then(() => console.log('Conexión exitosa a la base de datos'))
